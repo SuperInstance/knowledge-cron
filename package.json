@@ -1,0 +1,19 @@
+{
+  "name": "knowledge-cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260612.1",
+    "typescript": "^6.0.3",
+    "wrangler": "^4.100.0"
+  }
+}

@@ -1,0 +1,10 @@
+name = "knowledge-cron"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[triggers]
+crons = ["0 */6 * * *"]
+
+[[kv_namespaces]]
+binding = "PATTERNS_KV"
+id = "placeholder"
